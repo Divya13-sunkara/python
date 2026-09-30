@@ -1,0 +1,6 @@
+f = open("students.txt", "a")
+name = input("Enter student name: ")
+age = input("Enter age: ")
+marks = input("Enter marks: ")
+f.write(name + " " + age + " " + marks + "\n")
+f.close()

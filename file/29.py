@@ -1,0 +1,8 @@
+f = open("data.txt", "r")
+print("Initial position:", f.tell())
+f.read(5)
+print("After reading:", f.tell())
+f.seek(2)
+print("After seek:", f.tell())
+print(f.read())
+f.close()

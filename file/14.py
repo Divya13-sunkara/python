@@ -1,0 +1,11 @@
+f = open("demo.txt", "w")
+f.write("Hello\n")
+f.close()
+
+f = open("demo.txt", "a")
+f.write("Welcome\n")
+f.close()
+
+f = open("demo.txt", "r")
+print(f.read())
+f.close()

@@ -1,0 +1,5 @@
+f = open("data.txt", "r")
+print("Position:", f.tell())
+f.read(5)
+print("Position:", f.tell())
+f.close()
